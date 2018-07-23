@@ -2,7 +2,7 @@
   <v-app light>
 
     <v-content>
-      <v-container>
+      <v-container class="main-container">
         <v-layout column wrap align-center>
           <v-flex xs12 md4>
             <portfolio-header />
@@ -13,22 +13,23 @@
             </div>
           </v-flex>   
         </v-layout>
-       
       </v-container>
     </v-content>
 
-    <!-- Footer -->
+    <portfolio-footer />
   </v-app>
 </template>
 <script>
 import PortfolioHeader from './components/PortfolioHeader'
 import PortfolioCard from './components/PortfolioCard'
+import PortfolioFooter from './components/PortfolioFooter'
 
 export default {
   name: 'App',
   components: {
     PortfolioHeader,
-    PortfolioCard
+    PortfolioCard,
+    PortfolioFooter
   },
   data () {
     return {
@@ -80,3 +81,8 @@ export default {
   }
 }
 </script>
+<style>
+ .main-container {
+   max-width: 1200px;
+ }
+</style>
