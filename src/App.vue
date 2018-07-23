@@ -38,14 +38,14 @@ export default {
       posts: [
           {
             title: 'Crypto-Ticker',
-            content: 'Fusce ullamcorper tellus sed maximus rutrum. Donec imperdiet ultrices maximus. Donec non tellus non neque pellentesque fermentum. Aenean in pellentesque urna.',
+            content: 'I\'ve been engrossed in the .net world lately and only recently became aware of pusher, the hosted real time messaging platform.  I wanted to gain a little familiarity with it, so I used the existing bitstamp channels to create a mini crypto-tracking site.  I\'m not storing any values, so you will have to wait for the first trade to be made to see updated prices when you first load the page.',
             imgUrl: 'https://i.gyazo.com/15ae5b9164c60664b162b1547322aebe.png',
             githubUrl: 'https://github.com/gerardl/VuetifyTicker',
             demoUrl: 'http://ticker.gerardlucas.com'
           },
           {
             title: 'New Portfolio Site',
-            content: 'Donec vitae suscipit lectus, a luctus diam. Proin vitae felis gravida, lobortis massa sit amet, efficitur erat. Morbi vel ultrices nisi.',
+            content: 'Version 1 of the new site is live.  It uses Vuejs with the Vuetify material design framework.  Still tons I want to add, but so far happy with the progress!  It\'s not a template or anything, but feel free to use it for your own portfolio page.',
             imgUrl: 'https://i.gyazo.com/a0d2f569b93d730edbd860cc0ec83b06.png',
             githubUrl: 'https://github.com/gerardl/MaterialGerardLucasDotCom'
           },
@@ -70,7 +70,7 @@ export default {
           },
           {
             title: 'Old Portfolio Site',
-            content: 'Donec vitae suscipit lectus, a luctus diam. Proin vitae felis gravida, lobortis massa sit amet, efficitur erat. Morbi vel ultrices nisi.',
+            content: 'This was the first website parked at gerardlucas.com.  It used an old bootstrap template with some simple modifications.',
             imgUrl: 'https://i.gyazo.com/db9309a4754174a2c384271282cbfc26.png',
             githubUrl: 'https://github.com/gerardl/GerardLucasDotCom',
             demoUrl: 'http://old.gerardlucas.com'
