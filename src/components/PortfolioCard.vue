@@ -1,26 +1,24 @@
 <template>
   <v-card class="my-3" hover>
     <v-card-media
-        class="white--text"
         height="170px"
         :src="post.imgUrl">
-        <v-container fill-height fluid>
-            <v-layout>
-                <v-flex xs12 align-end d-flex>
-                    <span class="headline">{{ post.title }}</span>
-                </v-flex>
-            </v-layout>
-        </v-container>
     </v-card-media>
+    <v-card-title primary-title>
+        <div class="headline">{{ post.title }}</div>      
+    </v-card-title>
     <v-card-text>
         {{ post.content }}
     </v-card-text>
     <v-card-actions>
-        <v-btn icon>
-            <v-icon>fab fa-github</v-icon>
-        </v-btn>
+        <v-tooltip bottom>
+            <v-btn slot="activator" icon :href="post.githubUrl" target="_blank">
+                <v-icon>fab fa-github</v-icon>
+            </v-btn>
+            <span>View On Github</span>
+        </v-tooltip>
         <v-spacer></v-spacer>
-        <v-btn flat class="blue--text">More</v-btn>
+        <v-btn flat class="blue--text" target="_blank" v-if="post.demoUrl && post.demoUrl.length > 0" :href="post.demoUrl">View Demo</v-btn>
     </v-card-actions>
     </v-card>
 </template>
