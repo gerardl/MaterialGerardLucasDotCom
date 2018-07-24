@@ -45,6 +45,12 @@ export default {
             demoUrl: 'http://ticker.gerardlucas.com'
           },
           {
+            title: 'Discord Trivia Bot',
+            content: 'A basic bot for the discord chat application.  Uses the discord nodejs library and the open trivia API to play a multiple choice trivia game in your discord server.  You will need to get your own (free) api key, but then it should join your server without issue.',
+            imgUrl: 'https://i.gyazo.com/be39674dba3f6027c0f33325fffd5bf0.png',
+            githubUrl: 'https://github.com/gerardl/DiscordBot'
+          },
+          {
             title: 'New Portfolio Site',
             content: 'Version 1 of the new site is live.  It uses Vuejs with the Vuetify material design framework.  Still tons I want to add, but so far happy with the progress!  It\'s not a template or anything, but feel free to use it for your own portfolio page.',
             imgUrl: 'https://i.gyazo.com/a0d2f569b93d730edbd860cc0ec83b06.png',
@@ -64,7 +70,7 @@ export default {
           },
           {
             title: '2D RPG',
-            content: 'One of my early forays into Unity3D game development.  This was a prototype project focusing on completing some of the main systems needed for a single player RPG.  I ended up implementing, stats, quests, enemies, equipment, aimed attacking and blocking, and much more in a top-down game world.',
+            content: 'One of my early forays into Unity3D game development.  This was a prototype project focusing on completing some of the main systems needed for a single player RPG.  I ended up implementing stats, quests, enemies, equipment, aimed attacking and blocking, and much more in a top-down game world.',
             imgUrl: 'https://i.gyazo.com/e56b01e224a5aa94ef48ae824d53ad5e.png',
             githubUrl: 'https://github.com/gerardl/2DRPG',
             demoUrl: 'https://www.youtube.com/watch?v=2azM7cr6egc'
